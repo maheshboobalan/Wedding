@@ -1,0 +1,64 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Manasa A &amp; Boobalan S | Wedding Invitation</title>
+<meta name="description" content="Wedding of Manasa A and Boobalan S, 6 July 2027, 5:15 AM IST">
+<meta name="theme-color" content="#5a0d18">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Noto+Serif+Tamil:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<div id="petals" aria-hidden="true"></div>
+
+<div id="gate" role="dialog" aria-label="Temple entrance">
+ <div class="inside"><p>Together with our families</p><h2>M &amp; B</h2></div>
+ <div class="doors"><div class="door l"></div><div class="door r"></div></div>
+  <div class="gate-ui"><h1>A sacred beginning to our forever</h1>
+  <button id="open" class="btn">OPEN INVITATION</button><small>Tap to open the temple doors.</small></div>
+</div>
+
+<header class="bar"><button id="menuBtn" aria-expanded="false" aria-controls="menu" aria-label="Menu">☰</button>
+ <button id="music" aria-pressed="false">♪ Music OFF</button></header>
+<nav id="menu" hidden><a href="#invite">Invitation</a><a href="#story">Our Story</a><a href="#timeline">Timeline</a><a href="#date">Date</a><a href="#time">Muhurtham</a><a href="#venue">Venue</a><a href="#count">Countdown</a><a href="#share">Share</a></nav>
+<audio id="audio" src="audio/nadaswaram.mp3" loop preload="none"></audio>
+
+<main>
+<section id="invite" class="sec maroon bot" style="--bg:url(images/invite.jpg)"><div class="panel"><p class="cap">TOGETHER WITH OUR FAMILIES</p>
+ <p class="it">We joyfully invite you to celebrate the wedding of</p>
+ <h2 class="name">MANASA A</h2><p class="amp">&amp;</p><h2 class="name">BOOBALAN S</h2>
+ <p class="ta">திருமண அழைப்பிதழ்</p><p class="ta">மானசா A &amp; பூபாலன் S</p></div></section>
+
+<section id="story" class="sec ivory"><h2>Our Story</h2><p class="it">Two hearts. One journey. A lifetime together.</p>
+ <div class="frames"><figure class="ph" data-par="0.06"><span>❀</span><figcaption>Add your photo: replace this block with &lt;img&gt;</figcaption></figure>
+ <figure class="ph b" data-par="-0.06"><span>❁</span><figcaption>Add your photo</figcaption></figure></div></section>
+
+<section id="timeline" class="sec maroon bot" style="--bg:url(images/timeline.jpg)"><h2>Wedding Timeline</h2>
+ <ol class="tl"><li><i>🪔</i><b>Muhurtham</b><span>5:15 AM</span></li><li><i>🌺</i><b>Wedding Ceremony</b></li><li><i>💐</i><b>Family Blessings and Celebration</b></li></ol></section>
+
+<section id="date" class="sec ivory bot" style="--bg:url(images/date.jpg)"><h2>Reveal the date</h2>
+ <div class="scratch"><div class="under"><p>TUESDAY</p><strong>6 JULY 2027</strong><p class="ta">திருமண நாள்</p><p class="ta">6 ஜூலை 2027</p></div>
+ <canvas id="sc" aria-hidden="true"></canvas></div>
+ <button id="revealBtn" class="btn">Reveal the date</button></section>
+
+<section id="time" class="sec maroon bot" style="--bg:url(images/time.jpg)"><div class="clock" aria-hidden="true"><i class="h"></i><i class="m"></i></div>
+ <p class="cap">MUHURTHAM TIME</p><p class="big">5:15 AM</p><p class="ta">காலை 5:15 மணி</p></section>
+
+<section id="venue" class="sec ivory"><h2>VASAVI MITHRA MAHAL GRAND AKSHAYAM</h2><p class="ta">திருமண மண்டபம்</p>
+ <img class="venue" src="images/venue.jpg" width="800" height="337" loading="lazy" alt="Illustration of a decorated wedding hall (replace with your venue photo)">
+ <div class="row"><a class="btn" id="loc" target="_blank" rel="noopener">View Location</a><a class="btn" id="dir" target="_blank" rel="noopener">Get Directions</a><button class="btn cal">Add to Calendar</button></div></section>
+
+<section id="count" class="sec maroon full" style="--bg:url(images/count.jpg)"><h2>Counting down to the muhurtham</h2>
+ <div class="cd" aria-live="off"><div><b id="d">0</b>Days</div><div><b id="h">0</b>Hours</div><div><b id="mi">0</b>Minutes</div><div><b id="s">0</b>Seconds</div></div>
+ <p id="cdMsg" class="it"></p></section>
+
+<section class="sec ivory top" style="--bg:url(images/bless.jpg)"><p class="msg">With immense joy and the blessings of our families, we warmly invite you to celebrate our wedding.</p>
+ <p class="msg">Your gracious presence and blessings will make our special day truly memorable.</p>
+ <p class="ta tmsg">எங்கள் வாழ்வின் இனிய தொடக்கமான திருமண விழாவில் தாங்கள் குடும்பத்துடன் கலந்து கொண்டு மணமக்களை வாழ்த்தி மகிழ்விக்க அன்புடன் அழைக்கிறோம்.</p></section>
+
+<section class="sec maroon full mandap" style="--bg:url(images/mandap.jpg)"><h2 class="name">MANASA A</h2><p class="amp">&amp;</p><h2 class="name">BOOBALAN S</h2>
+ <p class="cap">WITH LOVE, BLESSINGS &amp; HAPPINESS</p><p class="ta">அன்புடன் அழைக்கிறோம்</p></section>
+
+<section id="share" class="sec ivory top" style="--bg:url(images/share.jpg)"><h2>Share our joy</h2>
+ <div class="row"><a class="btn" id="wa" target="_blank" rel="noopener">Share on WhatsApp</a><button class="btn" id="copy">Copy Invitation Link</button>
+ <button class="btn cal">Add to Calendar</button><a class="btn" id="loc2" target="_blank" rel="noopener">View Location</a></div>
+ <p id="status" role="status"></p></section>
+</main>
+<script defer src="main.js"></script></body></html>
